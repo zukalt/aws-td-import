@@ -2,7 +2,7 @@
 const ECS = require('aws-sdk/clients/ecs')
 const fs = require('fs')
 const argv = require('yargs/yargs')(process.argv.slice(2))
-    .usage('Usage: $0 [options]')
+    .usage('Usage: aws-td-import [options]')
     .alias('r', 'region').nargs('r', 1).default('r', 'us-east-1').describe('r', 'AWS Region')
     .alias('p', 'prefix').nargs('p', 1).describe('p', 'Task definitions family prefix')
     .alias('f', 'force').alias('f', 'overwrite').boolean('f').describe('f', 'Overwrite existing files')
