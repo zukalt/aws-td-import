@@ -1,7 +1,7 @@
 # Generate terraform files AWS ECS Task Definitions easily
  MIT License 
  ## Prequisites
-Make sure you have those installed and configred
+Make sure you have those installed and configured
 * node/npm
 * terraform
 * aws CLI 
