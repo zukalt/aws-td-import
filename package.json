@@ -1,0 +1,20 @@
+{
+  "name": "aws-td-import",
+  "displayName": "Utility to generate AWS ECS Task Definition infrastructure code for terraforms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "aws-td-import": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Gurgen Nersesyan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.893.0",
+    "yargs": "^16.2.0"
+  }
+}
