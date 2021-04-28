@@ -38,6 +38,15 @@ Make sure you have those installed and configred
 
     ~ source import.cmd
     
-If `terraform plan` commands tells you are sync with remote then you are lucky. 
+If `terraform plan` commands tells you are synced with existing infrastructure then you are lucky. 
+
+    ~ terraform plan
+        aws_ecs_task_definition.staging-...-td: Refreshing state... [id=staging-..]
+
+        No changes. Infrastructure is up-to-date.
+
+        This means that Terraform did not detect any differences between your configuration and the remote system(s). As a result, there are no actions to take.
+
+
 Go ahead make your changes and `terraform apply`
     
